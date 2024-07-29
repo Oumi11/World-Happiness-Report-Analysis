@@ -21,12 +21,14 @@ The main questions we aim to answer through this analysis are:
 
 ## Data & Tools
 ### 1)	Datasets
-<a href="[https://www.kaggle.com/datasets/unsdsn/world-happiness/data]">World Happiness Report 2015/2016/2017/2018/2019 
+<a href="https://www.kaggle.com/datasets/unsdsn/world-happiness/data">World Happiness Report 2015/2016/2017/2018/2019</a>
 
-<a href="[https://data.worldbank.org/indicator/SP.POP.TOTL?end=2019&start=2015]">World Population</a>
+<a href="https://data.worldbank.org/indicator/SP.POP.TOTL?end=2019&start=2015">World Population</a>
+
 ### 2)	Python libraries
 - Pandas
 - Numpy
 - Seaborn
 - Matplotlib
 - Spicy
+- 
