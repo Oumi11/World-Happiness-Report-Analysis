@@ -1,3 +1,4 @@
+![WHR Logo](Visualizations%20and%20photos/WHR%20logo.png)
 
 # World-Happiness-Report-Analysis
 This analysis provides an overview of world happiness scores for each country, aiming to identify correlations and trends. This project was completed as part of the curriculum from the CareerFoundry bootcamp.
