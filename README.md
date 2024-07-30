@@ -20,6 +20,9 @@ The main questions we aim to answer through this analysis are:
 
 3. Are there any patterns in the data that could suggest what can be done to improve the happiness score?
 
+### Full visualization on Tableau available <a href="https://public.tableau.com/app/profile/oumaima.salmi/viz/HappinessReportAnalysis2015-2019CF/Story1">here.</a>
+
+
 
 ## Data & Tools
 ### 1)	Datasets
@@ -100,7 +103,7 @@ As demonstrated in the exploratory analysis, the economic factor significantly i
 - To conclude, the relatively positive performance metrics suggest that the model is reliable. However, the small amount of data here (only 140 countries or data points) could not be reliable to implement that on other new data. Indeed, this could lead to inacurracy and/or biased results.
 
 
-#### _Unsupervised Machine Learning: K-means Clustering
+#### _Unsupervised Machine Learning: K-means Clustering_
 
 With K-means clustering, we can effectively group similar data points together into clusters. This method allows us to identify and categorize data points that share common characteristics. (see script 6.5)
 
@@ -130,7 +133,7 @@ With K-means clustering, we can effectively group similar data points together i
 The Happiness Score is a sum of several factors (variables in the dataset), which may not be reliable for direct use in predictive models. It is crucial to examine the interactions and relationships between these factors rather than treating them independently. 
 
 
-#### _3) Data Recency and Consistency
+#### _3) Data Recency and Consistency_
 
 - The World Happiness Report is relatively recent, limiting the availability of long-term data for building reliable predictive models. 
 
@@ -138,6 +141,16 @@ The Happiness Score is a sum of several factors (variables in the dataset), whic
 
 - The "family" factor was renamed to "social support" in recent reports. For consistency, this variable has been named "family and social support" in the analysis. 
 
-#### _4) Missing Data
+#### _4) Missing Data_
 Some countries were not selected each year, and for consistency, countries with missing data from certain years were excluded from the analysis, resulting in 140 countries being analyzed. 
+
+
+## Conclusion
+
+The analysis revealed significant trends and correlations among the various factors influencing the happiness score. Economic factors, such as GDP per capita, along with health and family/social support, have a substantial impact on happiness. In contrast, trust and generosity factors appear to have a lesser influence. 
+
+Additionally, a strong economy is correlated with improvements in other factors, such as health, indicating that these factors are interrelated. Although the factors are considered individually in the happiness scoring, they are interconnected.
+
+The consistent findings over the years highlight that developing countries continue to experience low happiness scores due to poor economic conditions, which directly affect their rankings.
+
 
