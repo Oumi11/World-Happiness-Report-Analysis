@@ -87,9 +87,10 @@ By using a correlation heatmap using matplotlib, the visualization shows the fac
 
 #### _Supervised Machine Learning: Regression_
 
-As it has been positively correlated in the exploratory analysis, the economic factor has an important impact on the happiness scoring. To understand this relationship even more, a regression analysis has been performed to answer to the hypothesis "If the economy of a country is strong, then the happiness score is higher".
+As demonstrated in the exploratory analysis, the economic factor significantly impacts the happiness score. To further understand this relationship, a regression analysis was conducted to test the hypothesis: "If the economy of a country is strong, then the happiness score is higher."
 
-![image](https://github.com/user-attachments/assets/237a32dc-73ef-403e-97fa-464662f227d5)       ![image](https://github.com/user-attachments/assets/37d0424c-3e80-4fe4-bc2b-3c31eaf3a721)
+![image](https://github.com/user-attachments/assets/28947625-b519-44ff-b64f-cfc59a9eff0f)
+
 
 
 - The positive slope in both the test set and training set indicate a positive relationship between the economy and the happiness score. A stronger economy is associated with higher happiness level.
