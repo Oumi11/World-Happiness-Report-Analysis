@@ -76,9 +76,10 @@ By using a correlation heatmap using matplotlib, the visualization shows the fac
 
 
 
-![image](https://github.com/user-attachments/assets/7b2c9036-91f8-418a-b2a3-e93cc89ccd57)
-
-![image](https://github.com/user-attachments/assets/abe664e7-5dca-4fe3-a540-11cb8dcf92e2)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/7b2c9036-91f8-418a-b2a3-e93cc89ccd57" alt="Image 1" width="45%">
+  <img src="https://github.com/user-attachments/assets/abe664e7-5dca-4fe3-a540-11cb8dcf92e2" alt="Image 2" width="45%">
+</div>
 
 
 
