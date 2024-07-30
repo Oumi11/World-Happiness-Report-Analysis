@@ -43,7 +43,7 @@ The main questions we aim to answer through this analysis are:
 
 #### _1. How does happiness vary from one country to another? Are there specific regions that are happier than others?_
 
-   To answer this question, I used folium on Python to create a choropleth map to visualize the happiness scoring worldwide (here an averaged of the happiness scoring between 2015 and 2019 has been used to showcase the results). A JSON file has been also imported to extract the country names.  
+  To answer this question, I utilized the Folium library in Python to create a choropleth map, visualizing the worldwide happiness scores. The map showcases the average happiness scores from 2015 to 2019. Additionally, a JSON file was imported to extract and map the country names accurately.  
 
 ![image](https://github.com/user-attachments/assets/8265612d-2618-4bf0-aabe-5c7915e752ec)
 
@@ -64,7 +64,8 @@ Happiness score and the Main Factors Overall: there is a stronger correlation be
 ![image](https://github.com/user-attachments/assets/60701175-be61-4285-b76c-e0dfc17484d7)
 
 
-![image](https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5)
+<img src="https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5" alt="image" width="250">
+
 
 
 
