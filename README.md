@@ -41,6 +41,8 @@ The main questions we aim to answer through this analysis are:
 
 ## Findings
 
+### Exploratory analysis
+
 #### _1. How does happiness vary from one country to another? Are there specific regions that are happier than others?_
 
   To answer this question, I utilized the Folium library in Python to create a choropleth map, visualizing the worldwide happiness scores. The map showcases the average happiness scores from 2015 to 2019. Additionally, a JSON file was imported to extract and map the country names accurately.  
@@ -77,6 +79,27 @@ By using a correlation heatmap using matplotlib, the visualization shows the fac
 ![image](https://github.com/user-attachments/assets/7b2c9036-91f8-418a-b2a3-e93cc89ccd57)
 
 ![image](https://github.com/user-attachments/assets/abe664e7-5dca-4fe3-a540-11cb8dcf92e2)
+
+
+
+
+### Statistical Analysis
+
+
+#### _Supervised Machine Learning: Regression_
+
+As it has been positively correlated in the exploratory analysis, the economic factor has an important impact on the happiness scoring. To understand this relationship even more, a regression analysis has been performed to answer to the hypothesis "If the economy of a country is strong, then the happiness score is higher".
+
+![image](https://github.com/user-attachments/assets/237a32dc-73ef-403e-97fa-464662f227d5)       ![image](https://github.com/user-attachments/assets/37d0424c-3e80-4fe4-bc2b-3c31eaf3a721)
+
+
+- The positive slope in both the test set and training set indicate a positive relationship between the economy and the happiness score. A stronger economy is associated with higher happiness level.
+
+- The R²score on the training set performed a bit better (0,68 for 0,63 in the test) and indicates that the relatively close values indicate that the moddel generalizes well to the new data. The model explains then a significant portion of the variance in happiness scores (68%). There is however 32% of the variance that is unexplained by the model. This makes sense as the happiness score is not only build on the economy factors.
+
+- To conclude, the relatively positive performance metrics suggest that the model is reliable. However, the small amount of data here (only 140 countries or data points) could not be reliable to implement that on other new data. Indeed, this could lead to inacurracy and/or biased results.
+
+
 
 
 
