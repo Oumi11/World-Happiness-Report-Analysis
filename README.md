@@ -52,7 +52,7 @@ The main questions we aim to answer through this analysis are:
 ![image](https://github.com/user-attachments/assets/5cb12c9a-1800-4d91-a4e2-02dba6fdae18)
 
 
-#### _2. To what extent do the main six factors impact the happiness score? What is the relationship or correlation between these factors?
+#### _2. To what extent do the main six factors impact the happiness score? What is the relationship or correlation between these factors?_
 By using a correlation heatmap using matplotlib, the visualization shows the factors that correlates the most between each other. 
 
 **Correlation between Economy and Health**: 0.96 This strong positive correlation suggests that wealthier countries tend to have higher life expectancy and better health outcomes. This makes sense as higher income levels generally provide better access to healthcare services, contributing to improved overall health.
@@ -99,8 +99,17 @@ As it has been positively correlated in the exploratory analysis, the economic f
 - To conclude, the relatively positive performance metrics suggest that the model is reliable. However, the small amount of data here (only 140 countries or data points) could not be reliable to implement that on other new data. Indeed, this could lead to inacurracy and/or biased results.
 
 
+#### _Unsupervised Machine Learning: K-means Clustering
+
+With K-means clustering, we can effectively group similar data points together into clusters. This method allows us to identify and categorize data points that share common characteristics. (see script 6.5)
+
+![image](https://github.com/user-attachments/assets/0ab91254-b6d1-4291-89fe-9d8ffb8f19c1)
 
 
+![image](https://github.com/user-attachments/assets/d3e6b316-a5b5-4a22-8159-9e2dcc8d7a83)
+
+
+**The K-means algorithm identified three distinct clusters within the dataset. These clusters provide meaningful insights, particularly highlighting the relationship between economic factors and happiness scores. For instance, countries in the pink cluster, which have better economic conditions, tend to have higher happiness scores. However, the data also reveals that countries with similar economic conditions can have significantly different happiness scores. This observation underscores the multifaceted nature of happiness, suggesting that while the economy is a major driver, it is not the sole factor influencing happiness.**
 
 
 
