@@ -64,7 +64,7 @@ Happiness score and the Main Factors Overall: there is a stronger correlation be
 ![image](https://github.com/user-attachments/assets/60701175-be61-4285-b76c-e0dfc17484d7)
 
 
-<img src="https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5" alt="image" width="250">
+<img src="https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5" alt="image" width="350">
 
 
 
