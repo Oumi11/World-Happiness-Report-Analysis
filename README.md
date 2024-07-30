@@ -41,13 +41,29 @@ The main questions we aim to answer through this analysis are:
 
 ## Findings
 
-1. How does happiness vary from one country to another? Are there specific regions that are happier than others?
+#### _1. How does happiness vary from one country to another? Are there specific regions that are happier than others?_
 
    To answer this question, I used folium on Python to create a choropleth map to visualize the happiness scoring worldwide (here an averaged of the happiness scoring between 2015 and 2019 has been used to showcase the results). A JSON file has been also imported to extract the country names.  
 
 ![image](https://github.com/user-attachments/assets/8265612d-2618-4bf0-aabe-5c7915e752ec)
 
+<a href="file:///C:/Users/salmi/Desktop/achievement%206/Scripts/happiness_score_worldwide_2015_2019.html">The map is avalaible here.</a>
 
+#### _2. To what extent do the main six factors impact the happiness score? What is the relationship or correlation between these factors?
+By using a correlation heatmap using matplotlib, the visualization shows the factors that correlates the most between each other. 
+
+Correlation between Economy and AHealth: 0.96 This strong positive correlation suggests that wealthier countries tend to have higher life expectancy and better health outcomes. This makes sense as higher income levels generally provide better access to healthcare services, contributing to improved overall health.
+
+Correlation between Economy and Family: 0.77 This moderate positive correlation implies that countries with stronger economies often have better family dynamics and social support systems. A robust economy can enhance family well-being by providing more resources and stability.
+
+Correlation between Generosity and Economy: -0.94 This strong negative correlation indicates that higher economic wealth in a country is associated with lower levels of generosity. This might suggest that wealthier nations may not necessarily have higher rates of charitable giving or altruistic behavior, potentially due to varying social and cultural factors.
+
+Happiness score and the Main Factors Overall: there is a stronger correlation between the economy, health, and family with the happiness score. However, when we look at the freedom, generosity, and trust factors, the correlation seems to be rather weak or even negative. We can conclude that the first three factors weigh more heavily in the happiness score than the latter three.
+
+![image](https://github.com/user-attachments/assets/60701175-be61-4285-b76c-e0dfc17484d7)
+
+
+![image](https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5)
 
 
 
