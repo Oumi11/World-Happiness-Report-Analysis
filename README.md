@@ -114,5 +114,29 @@ With K-means clustering, we can effectively group similar data points together i
 
 
 
+## Limitation of the datasets
 
+1.     Data Collection Method: 
+
+The World Happiness Report data is based on responses to the main life evaluation question. Respondents are asked to rate their current life on a scale from 0 (worst) to 10 (best) by imagining a ladder. 
+
+Only a sample of the population in each country is selected, totaling over 100,000 respondents. While the data comes from a reliable source, the subjectivity of the polls and the sample size need consideration during analysis. 
+
+Cultural biases may affect responses, as happiness perceptions vary from one culture to another (e.g., some people might earn less but feel happier). 
+
+2.     Happiness Score Composition: 
+
+The Happiness Score is a sum of several factors (variables in the dataset), which may not be reliable for direct use in predictive models. It is crucial to examine the interactions and relationships between these factors rather than treating them independently. 
+
+3.     Data Recency and Consistency: 
+
+The World Happiness Report is relatively recent, limiting the availability of long-term data for building reliable predictive models. 
+
+Factors recorded for 2018 and 2019 differ, lacking the Dystopia Residual used to account for unexplained external factors impacting happiness. 
+
+The "family" factor was renamed to "social support" in recent reports. For consistency, this variable has been named "family and social support" in the analysis. 
+
+4.     Missing Data: 
+
+Some countries were not selected each year, and for consistency, countries with missing data from certain years were excluded from the analysis, resulting in 140 countries being analyzed. 
 
