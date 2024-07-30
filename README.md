@@ -47,7 +47,8 @@ The main questions we aim to answer through this analysis are:
 
 ![image](https://github.com/user-attachments/assets/8265612d-2618-4bf0-aabe-5c7915e752ec)
 
-<a href="file:///C:/Users/salmi/Desktop/achievement%206/Scripts/happiness_score_worldwide_2015_2019.html">The map is avalaible here.</a>
+![image](https://github.com/user-attachments/assets/5cb12c9a-1800-4d91-a4e2-02dba6fdae18)
+
 
 #### _2. To what extent do the main six factors impact the happiness score? What is the relationship or correlation between these factors?
 By using a correlation heatmap using matplotlib, the visualization shows the factors that correlates the most between each other. 
