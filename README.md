@@ -10,7 +10,7 @@ This analysis provides an overview of world happiness scores for each country, a
 
 ##  Purpose and Key Questions
 
-The aim of this analysis is to highlight which countries have the highest and lowest happiness levels, identify the factors driving happiness, and determine any strong correlations between these factors. The analysis covers the years 2015 to 2019, encompassing a total of 140 countries. 
+**The aim of this analysis is to highlight which countries have the highest and lowest happiness levels, identify the factors driving happiness, and determine any strong correlations between these factors. The analysis covers the years 2015 to 2019, encompassing a total of 140 countries.** 
 
 The main questions we aim to answer through this analysis are: 
 
@@ -53,13 +53,13 @@ The main questions we aim to answer through this analysis are:
 #### _2. To what extent do the main six factors impact the happiness score? What is the relationship or correlation between these factors?
 By using a correlation heatmap using matplotlib, the visualization shows the factors that correlates the most between each other. 
 
-Correlation between Economy and AHealth: 0.96 This strong positive correlation suggests that wealthier countries tend to have higher life expectancy and better health outcomes. This makes sense as higher income levels generally provide better access to healthcare services, contributing to improved overall health.
+**Correlation between Economy and Health**: 0.96 This strong positive correlation suggests that wealthier countries tend to have higher life expectancy and better health outcomes. This makes sense as higher income levels generally provide better access to healthcare services, contributing to improved overall health.
 
-Correlation between Economy and Family: 0.77 This moderate positive correlation implies that countries with stronger economies often have better family dynamics and social support systems. A robust economy can enhance family well-being by providing more resources and stability.
+**Correlation between Economy and Family**: 0.77 This moderate positive correlation implies that countries with stronger economies often have better family dynamics and social support systems. A robust economy can enhance family well-being by providing more resources and stability.
 
-Correlation between Generosity and Economy: -0.94 This strong negative correlation indicates that higher economic wealth in a country is associated with lower levels of generosity. This might suggest that wealthier nations may not necessarily have higher rates of charitable giving or altruistic behavior, potentially due to varying social and cultural factors.
+**Correlation between Generosity and Economy**: -0.94 This strong negative correlation indicates that higher economic wealth in a country is associated with lower levels of generosity. This might suggest that wealthier nations may not necessarily have higher rates of charitable giving or altruistic behavior, potentially due to varying social and cultural factors.
 
-Happiness score and the Main Factors Overall: there is a stronger correlation between the economy, health, and family with the happiness score. However, when we look at the freedom, generosity, and trust factors, the correlation seems to be rather weak or even negative. We can conclude that the first three factors weigh more heavily in the happiness score than the latter three.
+**Happiness score and the Main Factors Overall**: there is a stronger correlation between the economy, health, and family with the happiness score. However, when we look at the freedom, generosity, and trust factors, the correlation seems to be rather weak or even negative. We can conclude that the first three factors weigh more heavily in the happiness score than the latter three.
 
 ![image](https://github.com/user-attachments/assets/60701175-be61-4285-b76c-e0dfc17484d7)
 
@@ -70,7 +70,7 @@ Happiness score and the Main Factors Overall: there is a stronger correlation be
 
 
 
-These visualizations created in Tableau display the correlations between various factors and their relationship to the happiness scores. Additionally, other variables such as population, region, and country are also presented.
+**These visualizations created in Tableau display the correlations between various factors and their relationship to the happiness scores. Additionally, other variables such as population, region, and country are also presented.**
 
 
 
