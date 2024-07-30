@@ -37,3 +37,18 @@ The main questions we aim to answer through this analysis are:
 - JSON
 - sklearn
 - pylab
+
+
+## Findings
+
+1. How does happiness vary from one country to another? Are there specific regions that are happier than others?
+
+   To answer this question, I used folium on Python to create a choropleth map to visualize the happiness scoring worldwide (here an averaged of the happiness scoring between 2015 and 2019 has been used to showcase the results). A JSON file has been also imported to extract the country names.  
+
+![image](https://github.com/user-attachments/assets/8265612d-2618-4bf0-aabe-5c7915e752ec)
+
+
+
+
+
+
