@@ -67,6 +67,15 @@ Happiness score and the Main Factors Overall: there is a stronger correlation be
 <img src="https://github.com/user-attachments/assets/4c2b291c-2670-4091-a6f2-ceccbd2916b5" alt="image" width="500">
 
 
+These visualization created on Tableau present as well the different correlation between each factors between each other and with the happiness factors. Other variables such as population, region and countries are also presented here 
+
+![image](https://github.com/user-attachments/assets/7b2c9036-91f8-418a-b2a3-e93cc89ccd57)
+
+![image](https://github.com/user-attachments/assets/abe664e7-5dca-4fe3-a540-11cb8dcf92e2)
+
+
+
+
 
 
 
