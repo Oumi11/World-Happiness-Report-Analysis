@@ -41,6 +41,10 @@ The main questions we aim to answer through this analysis are:
 - sklearn
 - pylab
 
+### 3)	Other tools
+- Excel Power Query
+- Tableau for final reporting and visualizations
+
 
 ## Findings
 
