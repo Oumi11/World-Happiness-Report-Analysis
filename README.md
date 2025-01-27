@@ -24,7 +24,7 @@ The main questions we aim to answer through this analysis are:
 
 
 
-## Data & Tools
+## Datasets & Tools
 ### 1)	Datasets
 <a href="https://www.kaggle.com/datasets/unsdsn/world-happiness/data">World Happiness Report 2015/2016/2017/2018/2019</a> (Kaddle)
 
